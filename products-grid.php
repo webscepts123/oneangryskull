@@ -234,8 +234,8 @@ get_header();
                             </select>
                             <!--Grid-list view-->
                             <span class="grid-list">
-                                <a href="products-grid.html"><i class="fa fa-th-large"></i></a>
-                                <a href="products-list.html"><i class="fa fa-align-justify"></i></a>
+                                <a href="http://localhost/WP/tw-p1/index.php/product-grid/"><i class="fa fa-th-large"></i></a>
+                                <a href="http://localhost/WP/tw-p1/index.php/product-list/"><i class="fa fa-align-justify"></i></a>
                                 <a href="javascript:void(0);" class="toggle-filters-mobile"><i class="fa fa-search"></i></a>
                             </span>
                         </div>
@@ -261,7 +261,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-7.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-7.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -295,7 +295,7 @@ get_header();
                                     <span class="label label-danger">-50%</span>
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-8.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-8.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -328,7 +328,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-9.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-9.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -362,7 +362,7 @@ get_header();
                                     <span class="label label-info">-20%</span>
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-10.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-10.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -395,7 +395,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-11.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-11.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -428,7 +428,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-12.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-12.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -462,7 +462,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/cloth-1.jpg" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/cloth-1.jpg' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -495,7 +495,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/cloth-2.jpg" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/cloth-2.jpg' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -529,7 +529,7 @@ get_header();
                                     <span class="label label-warning">New</span>
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/cloth-3.jpg" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/cloth-3.jpg' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -561,7 +561,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/cloth-4.jpg" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/cloth-4.jpg' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -594,7 +594,7 @@ get_header();
                                     <span class="label label-info">-50%</span>
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/cloth-5.jpg" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/cloth-5.jpg' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -627,7 +627,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/cloth-6.jpg" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/cloth-6.jpg' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -659,7 +659,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-1.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-1.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -691,7 +691,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-2.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-2.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -724,7 +724,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-3.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-3.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -757,7 +757,7 @@ get_header();
                                 <div class="figure-grid">
                                     <div class="image">
                                         <a href="#productid1" class="mfp-open">
-                                            <img src="assets/images/product-4.png" alt="" width="360" />
+                                            <img src=<?php echo get_theme_file_uri( 'assets/images/product-4.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
                                     <div class="text">

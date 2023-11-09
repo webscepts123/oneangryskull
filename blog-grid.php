@@ -11,7 +11,7 @@ get_header();
   <section class="main-header">
             <header>
                 <div class="container">
-                    <h1 class="h2 title">Blog grid fullpage</h1>
+                    <h1 class="h2 title">Blog Posts</h1>
                     <ol class="breadcrumb breadcrumb-inverted">
                         <li><a href="index.html"><span class="icon icon-home"></span></a></li>
                         <li><a href="blog-1.html">Blog</a></li>
@@ -56,9 +56,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-1.jpg)">
-                                    <img src="assets/images/blog-1.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-1.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-1.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -80,9 +80,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-2.jpg)">
-                                    <img src="assets/images/blog-2.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-2.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-2.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -104,9 +104,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-3.jpg)">
-                                    <img src="assets/images/blog-3.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-3.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-3.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -128,9 +128,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-4.jpg)">
-                                    <img src="assets/images/blog-4.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-4.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-4.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -152,9 +152,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-5.jpg)">
-                                    <img src="assets/images/blog-5.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-5.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-5.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -176,9 +176,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-6.jpg)">
-                                    <img src="assets/images/blog-6.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-6.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-6.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -200,9 +200,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-7.jpg)">
-                                    <img src="assets/images/blog-7.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-7.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-7.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -224,9 +224,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-8.jpg)">
-                                    <img src="assets/images/blog-8.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                            <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-8.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-8.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">
@@ -248,9 +248,9 @@ get_header();
 
                     <div class="col-sm-4">
                         <article>
-                            <a href="article.html">
-                                <div class="image" style="background-image:url(assets/images/blog-9.jpg)">
-                                    <img src="assets/images/blog-9.jpg" alt="" />
+                            <a href="http://localhost/WP/tw-p1/index.php/blog">
+                                <div class="image" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/blog-9.jpg' );  ?>)">
+                                    <img src=<?php echo get_theme_file_uri( 'assets/images/blog-9.jpg' );  ?> alt="" />
                                 </div>
                                 <div class="entry entry-table">
                                     <div class="date-wrapper">

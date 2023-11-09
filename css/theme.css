@@ -361,7 +361,7 @@ select {
 }
 
 .btn.btn-main {
-    background-color: #2e73bb;
+    background-color: #000;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -398,7 +398,7 @@ select {
 }
 
 .btn.btn-add {
-    background: #2e73bb;
+    background: #000;
     position: absolute;
     overflow: hidden;
     color: white;
@@ -908,10 +908,10 @@ nav .navigation-pre .row > div {
 }
 
 nav .navigation-pre a {
-    color: #000;
+    color: #fff;
     padding: 10px;
     display: block;
-    background-color: #C5C1B9;
+    background-color: #333333;
 }
 
 nav .navigation-pre a:hover {
@@ -1029,7 +1029,8 @@ nav .navigation-main .navbar-dropdown .navbar-box ul > li.label {
     display: inline-block;
     margin-bottom: 6px;
     font-weight: normal;
-    color: #2e73bb;
+    /*color: #2e73bb;*/
+    color: #000;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
@@ -1242,7 +1243,7 @@ nav .navigation-main .navbar-dropdown .navbar-box ul > li:last-child > a {
         top: 0;
         right: 0;
         left: auto;
-        background-color: #2e73bb;
+        background-color: #000;
         -moz-transform: translate3d(0, -100%, 0);
         -ms-transform: translate3d(0, -100%, 0);
         -o-transform: translate3d(0, -100%, 0);
@@ -1274,7 +1275,7 @@ nav .navigation-main .navbar-dropdown .navbar-box ul > li:last-child > a {
     }
     nav .navigation-main .floating-menu .navbar-dropdown {
         display: none;
-        background-color: #3078c3;
+        background-color: #424547;
         padding: 0 10px;
         margin-bottom: 10px;
     }
@@ -4475,7 +4476,7 @@ nav .cart-wrapper.open {
 .scroll-top {
     visibility: hidden;
     padding: 8px 18px 20px;
-    background-color: #2e73bb;
+    background-color: #000;
     color: white;
     position: fixed;
     bottom: -15px;
