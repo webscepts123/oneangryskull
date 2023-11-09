@@ -35,7 +35,7 @@ get_header();
                 <a class="nav-link prev" href="#">
                     <figure>
                         <div class="image">
-                            <img src="assets/images/blog-2.jpg" alt="Alternate Text">
+                            <img src=<?php echo get_theme_file_uri( 'assets/images/blog-2.jpg' );  ?> alt="Alternate Text">
                         </div>
                         <figcaption>
                             <div class="blog-title h6">Turn off the lights before bed with one word</div>
@@ -48,7 +48,7 @@ get_header();
                 <a class="nav-link next" href="#">
                     <figure>
                         <div class="image">
-                            <img src="assets/images/blog-3.jpg" alt="Alternate Text">
+                            <img src=<?php echo get_theme_file_uri( 'assets/images/blog-3.jpg' );  ?> alt="Alternate Text">
                         </div>
                         <figcaption>
                             <div class="blog-title h6">Automatically lock the front door when you head to work</div>
@@ -108,14 +108,14 @@ get_header();
                                     <p>
                                         When Michiteru Kitazaki, a professor of engineering at Toyohashi University of Technology in Japan, recently posed this question in an email, he evoked an idea from Japanese culture known as tamashii, or the soul without a body.
                                     </p>
-                                    <p><img src=<?php echo get_theme_file_uri( 'assets/images/blog-1.jpg' );  ?>"assets/images/blog-3.jpg" alt="This is an alternative image description. It will generate auto caption." /></p>
+                                    <p><img src=<?php echo get_theme_file_uri( 'assets/images/blog-3.jpg' );  ?> alt="This is an alternative image description. It will generate auto caption." /></p>
                                     <p>
                                         Will it soon be possible, he wondered, to simulate the feeling of a spirit not attached to any particular physical form using virtual or augmented reality?
                                     </p>
                                     <p>
                                         If so, a good place to start would be to figure out the minimal amount of body we need to feel a sense of self, especially in digital environments where more and more people may find themselves for work or play. It might be as little as a pair of hands and feet, report Dr. Kitazaki and a Ph.D. student, Ryota Kondo.
                                     </p>
-                                    <p><img src=<?php echo get_theme_file_uri( 'assets/images/blog-1.jpg' );  ?>"assets/images/blog-4.jpg" alt="This is an alternative image description. It will generate auto caption." /></p>
+                                    <p><img src=<?php echo get_theme_file_uri( 'assets/images/blog-4.jpg' );  ?> alt="This is an alternative image description. It will generate auto caption." /></p>
                                     <p>
                                         In a paper published Tuesday in Scientific Reports, they showed that animating virtual hands and feet alone is enough to make people feel their sense of body drift toward an invisible avatar.
                                     </p>
@@ -181,7 +181,7 @@ get_header();
 
                                     <div class="comment-block">
                                         <div class="comment-user">
-                                            <div><img src=<?php echo get_theme_file_uri( 'assets/images/blog-1.jpg' );  ?>"assets/images/user-2.jpg" alt="Alternate Text" width="70" /></div>
+                                            <div><img src=<?php echo get_theme_file_uri( 'assets/images/user-2.jpg' );  ?> alt="Alternate Text" width="70" /></div>
                                             <div>
                                                 <h5>
                                                     John Doe
@@ -208,7 +208,7 @@ get_header();
 
                                         <div class="comment-block">
                                             <div class="comment-user">
-                                                <div><img src=<?php echo get_theme_file_uri( 'assets/images/user-2.jpg' );  ?>"" alt="Alternate Text" width="70" /></div>
+                                                <div><img src=<?php echo get_theme_file_uri( 'assets/images/user-2.jpg' );  ?> alt="Alternate Text" width="70" /></div>
                                                 <div>
                                                     <h5>
                                                         John Doe
