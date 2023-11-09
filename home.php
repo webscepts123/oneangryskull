@@ -1039,7 +1039,7 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Boxing & MMA Equipment</h2>
+                        <h2 class="h3">Luxary Men's Cloths</h2>
                     </div>
                     <div class="description">
                         <ul>
@@ -1070,7 +1070,7 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Fitness, Running & Yoga Equipment</h2>
+                        <h2 class="h3">Luxary Women's Cloths</h2>
                     </div>
                     <div class="description">
                         <ul class="col">
