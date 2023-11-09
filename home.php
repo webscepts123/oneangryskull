@@ -193,16 +193,16 @@ get_header();
                     <div class="description">
                         <ul>
                             <li>
-                                <a href="">T &amp; Shirts</a>
+                                <a href="">T Shirts</a>
                             </li>
                             <li>
-                                <a href="">Jeans &amp; </a>
+                                <a href="">Jeans </a>
                             </li>
                             <li>
-                                <a href="">Shorts &amp; </a>
+                                <a href="">Shorts</a>
                             </li>
                             <li>
-                                <a href="">Sweaters: &amp; </a>
+                                <a href="">Sweaters </a>
                             </li>
                             <li class="more">
                                 <a href="#">More</a>
