@@ -279,7 +279,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-1.png' );  ?> alt="Alternate Text" />
-                <figcaption>Shoes</figcaption>
+                <figcaption>Cotton T-Shirt</figcaption>
             </figure>
         </a>
 
@@ -288,7 +288,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-2.png' );  ?> alt="Alternate Text" />
-                <figcaption>Gadgets</figcaption>
+                <figcaption>Fitted Hoodie</figcaption>
             </figure>
         </a>
 
@@ -297,7 +297,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-3.png' );  ?> alt="Alternate Text" />
-                <figcaption>TV & Video </figcaption>
+                <figcaption>Wine Tumbler </figcaption>
             </figure>
         </a>
 
@@ -306,7 +306,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-4.png' );  ?> alt="Alternate Text" />
-                <figcaption>Drones</figcaption>
+                <figcaption>ZipUp Windbreaker</figcaption>
             </figure>
         </a>
 
@@ -315,7 +315,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-5.png' );  ?> alt="Alternate Text" />
-                <figcaption>Cameras</figcaption>
+                <figcaption>Foam Trucker Hat</figcaption>
             </figure>
         </a>
 
@@ -324,7 +324,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-6.png' );  ?> alt="Alternate Text" />
-                <figcaption>Mobile phones</figcaption>
+                <figcaption>Cotton Tote Bag</figcaption>
             </figure>
         </a>
 
@@ -333,7 +333,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-7.png' );  ?> alt="Alternate Text" />
-                <figcaption>Accessories</figcaption>
+                <figcaption>Embroidered Backpack</figcaption>
             </figure>
         </a>
 
@@ -342,7 +342,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-8.png' );  ?> alt="Alternate Text" />
-                <figcaption>Home</figcaption>
+                <figcaption>Black Glossy Mug</figcaption>
             </figure>
         </a>
 
@@ -351,7 +351,7 @@ get_header();
         <a href="#">
             <figure>
                 <img src=<?php echo get_theme_file_uri( 'assets/images/product-9.png' );  ?> alt="Alternate Text" />
-                <figcaption>Projectors</figcaption>
+                <figcaption>Duffle Bag</figcaption>
             </figure>
         </a>
 
@@ -371,7 +371,7 @@ get_header();
 <header>
     <div class="row">
         <div class="col-md-offset-2 col-md-8 text-center">
-            <h2 class="title">Best seller</h2>
+            <h2 class="title">Best seller Items</h2>
             <div class="text">
                 <p>Check out our latest collections</p>
             </div>
@@ -403,8 +403,8 @@ get_header();
                     </a>
                 </div>
                 <div class="text">
-                    <h2 class="title h5">
-                        <a href="product.html">Coffee machine</a>
+                    <h2 class="title h5" >
+                        <a href="http://localhost/WP/tw-p1/index.php/products/">Embroidered Backpack</a>
                     </h2>
                     <sub>$ 159,-</sub>
                     <sup>$ 139,-</sup>
@@ -438,7 +438,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Iron set</a>
+                        <a href="http://localhost/WP/tw-p1/index.php/products/">Black Glossy Mug</a>
                     </h2>
                     <sub>$ 1999,-</sub>
                     <sup>$ 1499,-</sup>
@@ -471,7 +471,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Projector 4k</a>
+                        <a href="http://localhost/WP/tw-p1/index.php/products/">Duffle Bag</a>
                     </h2>
                     <sub>$ 1999,-</sub>
                     <sup>$ 1499,-</sup>
@@ -505,7 +505,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Headphones Wireless</a>
+                        <a href="http://localhost/WP/tw-p1/index.php/products/">Cotton T-Shirt</a>
                     </h2>
                     <sub>$ 1999,-</sub>
                     <sup>$ 1499,-</sup>
@@ -538,7 +538,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Vacuum cleaner</a>
+                        <a href="http://localhost/WP/tw-p1/index.php/products/">Backpack</a>
                     </h2>
                     <sub>$ 1999,-</sub>
                     <sup>$ 1499,-</sup>
@@ -571,7 +571,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">E-shaver 500</a>
+                        <a href="http://localhost/WP/tw-p1/index.php/products/">Trucker Hat</a>
                     </h2>
                     <sub>$ 1999,-</sub>
                     <sup>$ 1499,-</sup>
@@ -706,7 +706,7 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Woman's</h2>
+                        <h2 class="h3">Men's</h2>
                     </div>
                     <div class="description">
                         <ul>
@@ -737,7 +737,7 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Man's</h2>
+                        <h2 class="h3">Woman's</h2>
                     </div>
                     <div class="description">
                         <ul class="col">
@@ -768,7 +768,7 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Kids</h2>
+                        <h2 class="h3">Accesories</h2>
                     </div>
                     <div class="description">
                         <ul class="col">
@@ -800,7 +800,7 @@ get_header();
 <header>
     <div class="row">
         <div class="col-md-offset-2 col-md-8 text-center">
-            <h2 class="title">Clothing & Shoes</h2>
+            <h2 class="title">Clothing & Accesories</h2>
             <div class="text">
                 <p>Check out our latest collections</p>
             </div>
@@ -834,7 +834,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Elegant shoe</a>
+                        <a href="product.html">Unisex Tank Top</a>
                     </h2>
                     <sub>$ 199,-</sub>
                     <sup>$ 99,-</sup>
@@ -867,7 +867,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Polo shirt</a>
+                        <a href="product.html">Lightweight T-Shirt</a>
                     </h2>
                     <sub>$ 159,-</sub>
                     <sup>$ 129,-</sup>
@@ -901,7 +901,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">T-shirt</a>
+                        <a href="product.html">Premium T-Shirt</a>
                     </h2>
                     <sup>$ 29,-</sup>
                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
@@ -933,7 +933,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Winter Jacket</a>
+                        <a href="product.html">Windbreaker</a>
                     </h2>
                     <sup>$ 299,-</sup>
                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
@@ -966,7 +966,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Sweater</a>
+                        <a href="product.html">Cotton T-Shirt</a>
                     </h2>
                     <sub>$ 49,-</sub>
                     <sup>$ 19,-</sup>
@@ -999,7 +999,7 @@ get_header();
                 </div>
                 <div class="text">
                     <h2 class="title h5">
-                        <a href="product.html">Lether jacket</a>
+                        <a href="product.html">Windbreaker</a>
                     </h2>
                     <sup>$ 499,-</sup>
                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
@@ -1122,12 +1122,12 @@ get_header();
         <!--logo-item-->
         <div class="stretcher-logo">
             <div class="text">
-                <span class="text-intro">Man's</span>
+                <span class="text-intro" ></span>
             </div>
         </div>
         <!--main text-->
         <figure>
-            <h4>Man's watches</h4>
+            <h4>Cotton Tote Bag</h4>
             <figcaption>Collection of prestigious, high precision timepieces</figcaption>
         </figure>
         <!--anchor-->
@@ -1140,12 +1140,12 @@ get_header();
         <!--logo-item-->
         <div class="stretcher-logo">
             <div class="text">
-                <span class="text-intro">Woman's</span>
+                <span class="text-intro"></span>
             </div>
         </div>
         <!--main text-->
         <figure>
-            <h4>Womans's watches</h4>
+            <h4>Unisex Lightweight Zip Up Windbreaker</h4>
             <figcaption>Choose among a wonderful variety of refined and feminine timepieces</figcaption>
         </figure>
         <!--anchor-->
@@ -1158,12 +1158,12 @@ get_header();
         <!--logo-item-->
         <div class="stretcher-logo">
             <div class="text">
-                <span class="text-intro">Professional</span>
+                <span class="text-intro"></span>
             </div>
         </div>
         <!--main text-->
         <figure>
-            <h4>Professional watches</h4>
+            <h4>Wine Tumble</h4>
             <figcaption>Discover your favourite model by combining materials</figcaption>
         </figure>
         <!--anchor-->
@@ -1176,13 +1176,13 @@ get_header();
         <!--logo-item-->
         <div class="stretcher-logo">
             <div class="text">
-                <span class="text-intro">Diamond bezzels</span>
+                <span class="text-intro"></span>
             </div>
         </div>
         <!--main text-->
         <figure>
-            <h4>Diamond bezzels</h4>
-            <figcaption>Diamond bezel watch collection of luxurious pieces</figcaption>
+            <h4>Men's Premium Cotton T-Shirt</h4>
+            <figcaption>Men's Premium Cotton T-Shirt collection of luxurious pieces</figcaption>
         </figure>
         <!--anchor-->
         <a href="#">Anchor link</a>

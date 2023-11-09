@@ -96,8 +96,8 @@
 	<div class="navigation navigation-top clearfix">
 		<ul>
 			<!--add active class for current page-->
-			<li class="left-side"><a href="index.html" class="logo-icon" ><img src=<?php echo get_theme_file_uri( 'img/im1.avif' );  ?>  alt="Alternate Text" width="80px" /></a></li>
-			<li class="left-side"><a href="#">Men </a></li>
+			<li class="left-side"><a href="http://localhost/WP/tw-p1/" class="logo-icon" ><img src=<?php echo get_theme_file_uri( 'img/im1.avif' );  ?>  alt="Alternate Text" width="80px" /></a></li>
+			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">Men </a></li>
 			<!--
 				
 				// Use active class for current state
@@ -105,9 +105,9 @@
 				<li class="left-side active"><a href="#">Man</a></li>
 
 			-->
-			<li class="left-side"><a href="#">Woman</a></li>
-			<li class="left-side"><a href="#">ACCESSORIES</a></li>
-			<li class="left-side"><a href="#">SPORTWEAR</a></li>
+			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">Woman</a></li>
+			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">ACCESSORIES</a></li>
+			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">SPORTWEAR</a></li>
 			<li><a href="javascript:void(0);" class="open-login"><i class="icon icon-user"></i></a></li>
 			<li><a href="javascript:void(0);" class="open-search"><i class="icon icon-magnifier"></i></a></li>
 			<li><a href="javascript:void(0);" class="open-cart"><i class="icon icon-cart"></i> <span>4</span></a></li>

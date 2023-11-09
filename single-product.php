@@ -11,7 +11,7 @@ get_header();
 <?php global $post, $woocommerce; ?>
 <!-- ========================  Main header ======================== -->
 
-<section class="main-header text-center" style="background-image:url(assets/images/gallery-2.jpg)">
+<section class="main-header text-center" style="background-image:url(<?php echo get_theme_file_uri( 'assets/images/gallery-2.png' );  ?>)">
             <header>
                 <div class="container">
                     <h1 class="h2 title">Product category</h1>
