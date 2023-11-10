@@ -193,16 +193,16 @@ get_header();
                     <div class="description">
                         <ul>
                             <li>
-                                <a href="">T &amp; Shirts</a>
+                                <a href="">T Shirts</a>
                             </li>
                             <li>
-                                <a href="">Jeans &amp; </a>
+                                <a href="">Jeans </a>
                             </li>
                             <li>
-                                <a href="">Shorts &amp; </a>
+                                <a href="">Shorts</a>
                             </li>
                             <li>
-                                <a href="">Sweaters: &amp; </a>
+                                <a href="">Sweater </a>
                             </li>
                             <li class="more">
                                 <a href="#">More</a>
@@ -1039,7 +1039,7 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Boxing & MMA Equipment</h2>
+                        <h2 class="h3">Luxary Men's Cloths</h2>
                     </div>
                     <div class="description">
                         <ul>
@@ -1070,7 +1070,7 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Fitness, Running & Yoga Equipment</h2>
+                        <h2 class="h3">Luxary Women's Cloths</h2>
                     </div>
                     <div class="description">
                         <ul class="col">

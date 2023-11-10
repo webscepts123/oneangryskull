@@ -15,7 +15,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php echo bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -29,7 +29,7 @@
     <link rel="icon" href="favicon.ico">
 
     <!--Title-->
-    <title>Angryskull</title>
+    <title><?php echo bloginfo('title')?></title>
 
     <!--CSS bundle -->
     <link rel="stylesheet"  type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" />
@@ -58,6 +58,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
 	<?php wp_head(); ?>
 </head>
 
@@ -70,7 +71,7 @@
 
 <div class="clearfix">
 
-	<a href="index.html" class="logo"><img src=<?php echo get_theme_file_uri( 'img/on.webp' );  ?> alt="" /></a>
+	<a href="index.html" class="logo" id="headlg"><img src=<?php echo get_theme_file_uri( 'img/on2.jpg' );  ?> alt="" /></a>
 
 	<!-- ==========  Pre navigation ========== -->
 
@@ -241,7 +242,7 @@
 										<div class="col-lg-6">
 											<ul>
 												<li class="label"><i class="icon icon-star"></i> Womens</li>
-												<li><a href="#">Coffee Makers</a></li>
+												<li><a href="#">T Shirt</a></li>
 												<li><a href="#">Microwaves</a></li>
 												<li><a href="#">Blenders</a></li>
 												<li><a href="#">Slow Cookers</a></li>
