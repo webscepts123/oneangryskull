@@ -840,11 +840,13 @@ nav .logo {
     top: 0;
     border: 0;
     z-index: 10;
-    margin-top:20px;
+   margin-top:10px;
+   width: 270px;
 }
 
 nav .logo img {
     height: 55px;
+  
 }
 
 @media (min-width: 992px) {
@@ -856,14 +858,16 @@ nav .logo img {
         -o-transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-      
+       /* margin-top: -10px;*/
+       
     }
     nav .logo img {
         width: auto;
         height: auto;
-        margin-top: -10px;
+        
        
     }
+   
   
 }
 

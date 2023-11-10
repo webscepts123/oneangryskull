@@ -202,7 +202,7 @@ get_header();
                                 <a href="">Shorts</a>
                             </li>
                             <li>
-                                <a href="">Sweaters </a>
+                                <a href="">Sweater </a>
                             </li>
                             <li class="more">
                                 <a href="#">More</a>
