@@ -1029,7 +1029,7 @@ get_header();
 <div class="row row-clean">
 
     <!-- === blog item === -->
-
+<!--new-->
     <div class="col-lg-6">
         <article>
             <div>
