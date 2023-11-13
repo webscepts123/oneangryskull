@@ -237,14 +237,13 @@ add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 function my_theme_wrapper_start() {
     echo '<section id="main">';
 }
-
 function my_theme_wrapper_end() {
     echo '</section>';
 }
 
 
 
-/**/ 
+
 /*
 add_action( 'woocommerce_before_add_to_cart_form', 'brand_name', 5 );
 function brand_name(){
