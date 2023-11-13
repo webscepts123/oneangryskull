@@ -228,7 +228,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 add_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
 function woocommerce_show_product_images(){
 	
-	echo do_shortcode(['test']);
+	//echo do_shortcode(['test']);
 }
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 function woocommerce_template_single_title(){
