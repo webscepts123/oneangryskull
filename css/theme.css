@@ -361,7 +361,8 @@ select {
 }
 
 .btn.btn-main {
-    background-color: #000;
+    /*background-color: #000;*/
+    background-color: #a10c0c;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -6270,11 +6271,11 @@ footer ul li {
 }
 
 footer a {
-    color: #666666;
+    color: #fff;
 }
 
 footer a:hover {
-    color: #fff;
+    color: #d8d2d2;
 }
 
 footer .footer-showroom {
