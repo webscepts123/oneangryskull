@@ -224,18 +224,18 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 
 // single page details
-
+/*
 add_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
 function woocommerce_show_product_images(){
 	
-	//echo do_shortcode(['test']);
+	
 }
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 function woocommerce_template_single_title(){
 	echo 'Product Name Test';
-	//echo do_shortcode(['test']);
+	
 }
-
+*/
 add_action( 'woocommerce_before_add_to_cart_form', 'brand_name', 5 );
 function brand_name(){
 	echo 'Sample Brand name';
