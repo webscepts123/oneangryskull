@@ -74,8 +74,8 @@
 	
 	<a href="<?php bloginfo('url'); ?>" class="logo" id="headlg">
 	
-
-		<span style="color: #fff;font-size:26px" id="heddt">One Angry Skull</span>
+	
+		<span  id="heddt">One Angry Skull</span>
 	</a>
 
 	<!-- ==========  Pre navigation ========== -->

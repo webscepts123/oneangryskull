@@ -841,10 +841,13 @@ nav .logo {
     border: 0;
     z-index: 10;
    margin-top:20px;
- 
+  
   height: 55px;
 }
-
+#heddt{
+    color: #fff;
+    font-size:26px
+}
 nav .logo img {
     margin-top: -20px;
     height: 55px;
@@ -854,6 +857,7 @@ nav .logo img {
 #heddt{
     display: flex;
         }
+
 @media (min-width: 992px) {
     nav .logo {
         left: 50%;
@@ -872,10 +876,7 @@ nav .logo img {
         
        
     }
-    nav .logo span{
-        color: #000;
-
-    }
+   
    
 }
 
@@ -1618,6 +1619,7 @@ nav .login-wrapper a {
     nav .login-wrapper {
         max-width: 300px;
     }
+   
 }
 
 nav .cart-wrapper {
@@ -6227,7 +6229,7 @@ footer {
     background-repeat: no-repeat;
     position: relative;
     color: #666666;
-    background-color: #f1f1f1;
+    background-color: #071630;
     padding: 15px !important;
     font-size: 85%;
 }
@@ -6246,7 +6248,8 @@ footer {
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6,
 footer .h1, footer .h2, footer .h3, footer .h4, footer .h5, footer .h6 {
-    color: #245a92;
+    /*color: #245a92;*/
+    color: #fff;
 }
 
 footer .form-control {
@@ -6271,7 +6274,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #2e73bb;
+    color: #fff;
 }
 
 footer .footer-showroom {

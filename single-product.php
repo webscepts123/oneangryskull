@@ -49,7 +49,8 @@ get_header();
                                 <!-- === product-title === -->
 
                                 <h1 class="title" data-title="Wireless">
-                                <?php woocommerce_template_single_title(); ?>
+                              
+                             <?php woocommerce_template_single_title(); ?>
                                     <small>Free shipping</small>
                                 </h1>
 
@@ -60,7 +61,7 @@ get_header();
                                     <div class="price">
                                         <span class="h3">
                                             
-                                            <?php woocommerce_single_variation() ?>
+                                            <?php woocommerce_single_variation(); ?>
                                             <small>$ 2999,00</small>
                                         </span>
                                     </div>
