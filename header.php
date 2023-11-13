@@ -71,7 +71,12 @@
 
 <div class="clearfix">
 
-	<a href="index.html" class="logo" id="headlg"><img src=<?php echo get_theme_file_uri( 'img/on2.jpg' );  ?> alt="" /></a>
+	
+	<a href="<?php bloginfo('url'); ?>" class="logo" id="headlg">
+	
+	
+		<span  id="heddt">One Angry Skull</span>
+	</a>
 
 	<!-- ==========  Pre navigation ========== -->
 
@@ -97,8 +102,8 @@
 	<div class="navigation navigation-top clearfix">
 		<ul>
 			<!--add active class for current page-->
-			<li class="left-side"><a href="http://localhost/WP/tw-p1/" class="logo-icon" ><img src=<?php echo get_theme_file_uri( 'img/im1.avif' );  ?>  alt="Alternate Text" width="80px" /></a></li>
-			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">Men </a></li>
+			<li class="left-side"><a href="<?php bloginfo('url'); ?>/" class="logo-icon" ><img src=<?php echo get_theme_file_uri( 'img/im1.avif' );  ?>  alt="Alternate Text" width="80px" /></a></li>
+			<li class="left-side"><a href="<?php bloginfo('url'); ?>/product-grid/">Men </a></li>
 			<!--
 				
 				// Use active class for current state
@@ -106,9 +111,9 @@
 				<li class="left-side active"><a href="#">Man</a></li>
 
 			-->
-			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">Woman</a></li>
-			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">ACCESSORIES</a></li>
-			<li class="left-side"><a href="http://localhost/WP/tw-p1/index.php/product-grid/">SPORTWEAR</a></li>
+			<li class="left-side"><a href="<?php bloginfo('url'); ?>/product-grid/">Woman</a></li>
+			<li class="left-side"><a href="<?php bloginfo('url'); ?>/product-grid/">ACCESSORIES</a></li>
+			<li class="left-side"><a href="<?php bloginfo('url'); ?>/product-grid/">SPORTWEAR</a></li>
 			<li><a href="javascript:void(0);" class="open-login"><i class="icon icon-user"></i></a></li>
 			<li><a href="javascript:void(0);" class="open-search"><i class="icon icon-magnifier"></i></a></li>
 			<li><a href="javascript:void(0);" class="open-cart"><i class="icon icon-cart"></i> <span>4</span></a></li>
@@ -129,7 +134,7 @@
 			</div>
 			<ul>
 				<li>
-					<a href="http://localhost/WP/tw-p1/">Home <span class="open-dropdown"><!--<i class="fa fa-angle-down"></i></span>--></a>
+					<a href="<?php bloginfo('url'); ?>/">Home <span class="open-dropdown"><!--<i class="fa fa-angle-down"></i></span>--></a>
 					<!--<div class="navbar-dropdown navbar-dropdown-single">
 						<div class="navbar-box">
 							<div class="box-full">
@@ -146,7 +151,7 @@
 					</div>-->
 				</li>
 				<li>
-					<a href="http://localhost/WP/tw-p1/index.php/about-us/">About us <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
+					<a href="<?php bloginfo('url'); ?>/about-us/">About us <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
 					<!--<div class="navbar-dropdown navbar-dropdown-single">
 						<div class="navbar-box">
 							<div class="box-full">
@@ -173,12 +178,12 @@
 								<div class="box clearfix">
 									<ul>
 										<!--<li class="label">Product page</li>-->
-										<li><a href="http://localhost/WP/tw-p1/index.php/category/">Products categories</a></li>
-										<li><a href="http://localhost/WP/tw-p1/index.php/product-grid/">Products grid</a></li>
-										<li><a href="http://localhost/WP/tw-p1/index.php/product-list/">Products list</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/category/">Products categories</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/product-grid/">Products grid</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/product-list/">Products list</a></li>
 										<!--<li><a href="products-grid-intro.html">Products grid intro</a></li>
 										<li><a href="products-topbar.html">Products topbar filter</a></li>-->
-										<li><a href="http://localhost/WP/tw-p1/index.php/products/">Product overview</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/products/">Product overview</a></li>
 									</ul>
 								</div>
 							</div>
@@ -186,7 +191,7 @@
 					</div>
 				</li>
 				<li>
-					<a href="http://localhost/WP/tw-p1/index.php/blog-grid/">Blog <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
+					<a href="<?php bloginfo('url'); ?>/blog-grid/">Blog <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
 					<!--<div class="navbar-dropdown navbar-dropdown-single">
 						<div class="navbar-box">
 							<div class="box-full">
@@ -212,10 +217,10 @@
 								<div class="box clearfix">
 									<ul>
 										<li class="label">Checkout</li>
-										<li><a href="http://localhost/WP/tw-p1/index.php/checkout/">Checkout - Cart items</a></li>
-										<li><a href="http://localhost/WP/tw-p1/index.php/delivery/">Checkout - Delivery</a></li>
-										<li><a href="http://localhost/WP/tw-p1/index.php/payment/">Checkout - Payment</a></li>
-										<li><a href="http://localhost/WP/tw-p1/index.php/recept/">Checkout - Receipt</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/checkout/">Checkout - Cart items</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/delivery/">Checkout - Delivery</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/payment/">Checkout - Payment</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/recept/">Checkout - Receipt</a></li>
 									</ul>
 								</div>
 							</div>

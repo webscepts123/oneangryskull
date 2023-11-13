@@ -77,9 +77,9 @@
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <h5>Sign up for our newsletter</h5>
-                        <p><i>Add your email address to sign up for our monthly emails and to receive promotional offers.</i></p>
+                        <p><i style="color: #fff;">Add your email address to sign up for our monthly emails and to receive promotional offers.</i></p>
                         <div class="form-group form-newsletter">
-                            <input class="form-control" type="text" name="email" value="" placeholder="Email address" />
+                            <input class="form-control" type="text" name="email" value="" style="color: #fff;" placeholder="Email address" />
                             <input type="submit" class="btn btn-main btn-sm" value="Subscribe" />
                         </div>
                     </div>

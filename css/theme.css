@@ -361,7 +361,8 @@ select {
 }
 
 .btn.btn-main {
-    background-color: #000;
+    /*background-color: #000;*/
+    background-color: #a10c0c;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -835,19 +836,28 @@ nav .navigation {
 nav .logo {
     position: absolute;
     display: inline-block;
-    overflow: hidden;
+    /*overflow: hidden;*/
     left: 0;
     top: 0;
     border: 0;
     z-index: 10;
-   margin-top:10px;
-   width: 270px;
-}
-
-nav .logo img {
-    height: 55px;
+   margin-top:20px;
   
+  height: 55px;
 }
+#heddt{
+    color: #fff;
+    font-size:26px
+}
+nav .logo img {
+    margin-top: -20px;
+    height: 55px;
+    width: 150px;
+   
+}
+#heddt{
+    display: flex;
+        }
 
 @media (min-width: 992px) {
     nav .logo {
@@ -868,7 +878,7 @@ nav .logo img {
        
     }
    
-  
+   
 }
 
 nav .navigation ul,
@@ -1610,6 +1620,7 @@ nav .login-wrapper a {
     nav .login-wrapper {
         max-width: 300px;
     }
+   
 }
 
 nav .cart-wrapper {
@@ -6219,7 +6230,7 @@ footer {
     background-repeat: no-repeat;
     position: relative;
     color: #666666;
-    background-color: #f1f1f1;
+    background-color: #071630;
     padding: 15px !important;
     font-size: 85%;
 }
@@ -6238,7 +6249,8 @@ footer {
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6,
 footer .h1, footer .h2, footer .h3, footer .h4, footer .h5, footer .h6 {
-    color: #245a92;
+    /*color: #245a92;*/
+    color: #fff;
 }
 
 footer .form-control {
@@ -6259,11 +6271,11 @@ footer ul li {
 }
 
 footer a {
-    color: #666666;
+    color: #fff;
 }
 
 footer a:hover {
-    color: #2e73bb;
+    color: #d8d2d2;
 }
 
 footer .footer-showroom {
