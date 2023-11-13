@@ -50,7 +50,7 @@ get_header();
 
                                 <h1 class="title" data-title="Wireless">
                               
-                             <?php woocommerce_template_single_title(); ?>
+                           
                                     <small>Free shipping</small>
                                 </h1>
 
@@ -61,7 +61,7 @@ get_header();
                                     <div class="price">
                                         <span class="h3">
                                             
-                                            <?php woocommerce_single_variation(); ?>
+                                          
                                             <small>$ 2999,00</small>
                                         </span>
                                     </div>
@@ -71,14 +71,14 @@ get_header();
 
                                     <div class="info-box">
                                         <span><strong>Maifacturer</strong></span>
-                                        <span><?php brand_name(); ?></span>
+                                        <span></span>
                                     </div>
 
                                     <!-- === info-box === -->
 
                                     <div class="info-box">
                                         <span><strong>Materials</strong></span>
-                                        <span><?php brand_meterial() ?></span>
+                                        <span></span>
                                     </div>
 
                                     <!-- === info-box === -->
@@ -142,7 +142,7 @@ get_header();
                                             <span class="color-btn color-btn-biege"></span>-->
                                             <input type="number" name="" id=""> <br>
 
-                                            <?php woocommerce_template_loop_add_to_cart(); ?>
+                                           
                                         </div>
                                     </div>
 
