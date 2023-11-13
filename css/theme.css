@@ -976,6 +976,8 @@ nav .navigation-top > ul .left-side .logo-icon {
 
 nav .navigation-top > ul .left-side .logo-icon img {
     vertical-align: baseline;
+    padding-top: 3px;
+    width: 90px;
 }
 
 nav .navigation-top > ul > li > a {
