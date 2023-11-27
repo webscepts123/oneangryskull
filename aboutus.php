@@ -37,7 +37,7 @@ get_header();
 
                     <!-- === Grid === -->
 
-                    <div class="row">
+                    <!--<div class="row">
                         <div class="col-md-6">
                             <h4>Founding store</h4>
                             <p>We are constantly looking for talent with technical skills, a problem-solving approach and with a natural ability to take responsibility and act.</p>
@@ -47,21 +47,36 @@ get_header();
                             <p>Ela created Lager in 1999 to be your friendly neighborhood store for the very best beauty & honest, expert advice.</p>
 
                         </div>
-                    </div>
+                    </div>-->
 
                     <hr />
 
                     <!-- === Text === -->
 
                     <div class="text">
-                        <h4>Our success</h4>
-                        <p>
-                            We may add additional Sites from time to time as we expand our beauty offerings and these Terms of Use will govern those new Sites when added. You may be accessing our Sites from a computer or mobile phone device (through a smartphone application, for example) and these Terms of Use govern your use of our Sites and your conduct, regardless of the means of access. You may be using our interactive services ("Interactive Services"), such as our Product Ratings & Reviews and Beauty Junkie Profile functionality, and these Terms of Use govern your use of those Interactive Services
+                        <h4>Fashion democracy</h4>
+                        <p style="text-align: justify;">
+                        Welcome to One Angry Skull, where we believe in creating a kind, a thoughtful world free from hatred and deceit. Our brand is built on a new vision for the future, recognizing that the world is in crisis and that we all have a role to play in making it a better place.
                         </p>
-                        <h4>What we beleive in</h4>
-                        <p>
-                            We are aware of our social responsibilities and especially the responsibilities to our own stakeholders.
-                            These include employees, customers, suppliers and other relevant interested parties. We are also aware that we must ensure that our impact on the environment is minimal.
+                        <p style="text-align: justify;">
+                        At One Angry Skull, we believe that love and care answer many of the world's problems, and we strive to promote love, kindness, and compassion through everything we do. We believe in solving the homeless problem, helping those in need, and bringing down the walls that divide us.
+                        </p>
+                        <p style="text-align: justify;">
+                        We are committed to fighting against tyranny and promoting respect for life, and we believe that violence should never be an option. Instead, we strive to create honest conversations and connections with people, recognizing that the Sun is Life and that we all have the power to make a positive difference in the world.
+                        </p>
+                       
+                       
+                        </p>
+                        
+                        <p style="text-align: justify;">
+                           
+At One Angry Skull, we celebrate diversity and recognize that rainbows belong to everyone as a gift from God. We believe in respecting Mother Earth and acknowledging that she is in charge, and we believe in obeying our parents and treating each other with kindness and respect. We are passionate about music and believe it can bring people together and inspire positive change. Therefore, we are considering including snippets of songs with links on our website to promote this message of love and unity.
+                        </p>
+                        <p style="text-align: justify;">
+One Angry Skull, believe in the power of anger at hate as the antithesis of happiness, and we are committed to creating a brand that promotes positivity, kindness, and compassion in everything we do.
+                        </p>
+                        <p style="text-align: justify;">
+So join us in our mission to make the world a better place and to create a brighter future for all.
                         </p>
 
                     </div>
