@@ -852,7 +852,7 @@ nav .logo {
 nav .logo img {
     margin-top: -20px;
     height: 55px;
-    width: 150px;
+    width: 1500px;
    
 }
 #heddt{
@@ -978,6 +978,7 @@ nav .navigation-top > ul .left-side .logo-icon img {
     vertical-align: baseline;
     padding-top: 3px;
     width: 90px;
+    margin-top: 5px;
 }
 
 nav .navigation-top > ul > li > a {

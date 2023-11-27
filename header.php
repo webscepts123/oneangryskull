@@ -45,7 +45,9 @@
 
 	<!-- Latest compiled and minified CSS -->
 	
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     
 	
 	<!--Google fonts-->
@@ -75,7 +77,7 @@
 	<a href="<?php bloginfo('url'); ?>" class="logo" id="headlg">
 	
 	
-		<span  id="heddt">One Angry Skull</span>
+		<span  id="heddt" style="font-family: 'Lora', serif;">One Angry Skull</span>
 	</a>
 
 	<!-- ==========  Pre navigation ========== -->
