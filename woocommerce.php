@@ -21,12 +21,17 @@ get_header();
 
 	
 	 <div class="container">
+<<<<<<< HEAD
 
 		<div class="row product-flex">
 
 			<?php woocommerce_content(); ?> 
 	
 		</div>
+=======
+<?php woocommerce_content(); ?> 
+  
+>>>>>>> 0f43cc4 (newchangeupdate)
  	
 	</div>
 
