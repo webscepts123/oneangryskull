@@ -39,13 +39,9 @@
                             <li><a href="<?php bloginfo('url'); ?>/women/">Woman</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/accessories/">Accessories</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/sportwear/">Sportwear</a></li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
                             <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
->>>>>>> 979cc59 (newchangepage)
-=======
->>>>>>> 613b0cf (newchangesfaq)
+
                         </ul>
                     </div>
                     <!--<div class="col-sm-4 col-md-2">
@@ -72,6 +68,10 @@
                         <h5>Customer service</h5>
                         <ul>
                             <!--<li><a href="#">Product Recalls</a></li>-->
+
+                            <li><a href="<?php bloginfo('url'); ?>/index.php/faq/">FAQ</a></li>
+                            <!--<li><a href="#">Store Pickup</a></li>-->
+                            <li><a href="<?php bloginfo('url'); ?>/index.php/contact-us/">Contact us</a></li>
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
@@ -79,8 +79,13 @@
                             <li><a href="#">Feedback</a></li>
 >>>>>>> 979cc59 (newchangepage)
 =======
+
+
                             <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
 >>>>>>> 613b0cf (newchangesfaq)
+
+                            <li><a href="#">Feedback</a></li>
+
                             <!--<li><a href="#">Store Pickup</a></li>-->
                             <li><a href="<?php bloginfo('url'); ?>/contact-us/">Contact us</a></li>
                         </ul>
@@ -101,7 +106,9 @@
             <div class="footer-social">
                 <div class="row">
                     <div class="col-sm-6">
-                        <a href="<?php bloginfo('url'); ?>/sitemap/">Sitemap</a> &nbsp; | &nbsp; <a href="<?php bloginfo('url'); ?>/privacy-policy/">Privacy policy</a>
+
+                        <a href="<?php bloginfo('url'); ?>/sitemap/">Sitemap</a> &nbsp; | &nbsp; <a href="<?php bloginfo('url'); ?>/index.php/privacy-policy/">Privacy policy</a>
+
                     </div>
                     <div class="col-sm-6 links">
                         <ul>
