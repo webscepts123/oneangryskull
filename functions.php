@@ -167,22 +167,9 @@ wp_enqueue_script( 'script', get_template_directory_uri() . '/js/main.js', array
 //End my customfiles
 
 
-
-
-
-
-
-
-
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-
-
-
-
-
-
 
 
 }
@@ -228,11 +215,10 @@ remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wra
 
 
 
-
-
 // single page details
 add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
 add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
+
 
 function my_theme_wrapper_start() {
     echo '<section id="main">';
@@ -263,5 +249,18 @@ function woocommerce_template_loop_add_to_cart(){
 	echo ' <button type="submit" class="btn btn-buy" data-text="Buy"></button>';
 }
 */
+// Change add to cart text on single product page
+
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_add_to_cart_button_text_single' ); 
+function woocommerce_add_to_cart_button_text_single() {
+    return __( printf('Add to chart', 'woocommerce' ); 
+}
+
+
+
+add_theme_support('wc-product-gallery-zoom');
+add_theme_support('wc-product-gallery-lightbox');
+add_theme_support('wc-product-gallery-slider');
+
 
 
