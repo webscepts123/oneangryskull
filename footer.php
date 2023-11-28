@@ -62,10 +62,8 @@
                     <div class="col-sm-4 col-md-3">
                         <h5>Order info</h5>
                         <ul>
-                            <li><a href="#">Order Status </a></li>
-                            <li><a href="#">Payments</a></li>
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Returns</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/shipping/">Shipping</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/index.php/terms-and-conditions/">Terms and Conditions</a></li>
                             <!--<li><a href="#">Exchanges</a></li>
                             <li><a href="#">Order history</a></li>-->
                         </ul>

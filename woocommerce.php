@@ -20,16 +20,16 @@ get_header();
 
 
 	
-	 <div class="container">
+	<div class="container">
+
+
 
 		<div class="row product-flex">
 
 			<?php woocommerce_content(); ?> 
 	
 		</div>
- 	
-	</div>
-	</div>
+
 
 
 
