@@ -55,6 +55,7 @@ get_header();
                                 </h1>
 
                                 <div class="clearfix">
+                                <button type="submit" class="btn btn-buy" data-text="Buy"></button>
 
                                     <!-- === price wrapper === -->
 
