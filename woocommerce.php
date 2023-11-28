@@ -21,8 +21,12 @@ get_header();
 
 	
 	 <div class="container">
-<?php woocommerce_content(); ?> 
-  
+
+		<div class="row product-flex">
+
+			<?php woocommerce_content(); ?> 
+	
+		</div>
  	
 	</div>
 	</div>
