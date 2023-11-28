@@ -7,7 +7,7 @@
 get_header();
 ?>
 
-  <!-- ========================  Main header ======================== -->
+  <!-- ========================   Main header ======================== -->
 
   <section class="main-header" style="background-image:url(assets/images/gallery-4.jpg)">
             <header>

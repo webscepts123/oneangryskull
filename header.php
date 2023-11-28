@@ -82,19 +82,19 @@
 
 	<!-- ==========  Pre navigation ========== -->
 
-	<div class="navigation navigation-pre clearfix">
+	<div class="navigation navigation-pre clearfix" style="z-index: -1;">
 		<div class="row">
 			<div class="col-md-3">
-				<a href="#"><i class="icon icon-heart-pulse"></i> Help center</a>
+				<a href="#"> </a>
 			</div>
 			<div class="col-md-3">
-				<a href="#"><i class="icon icon-cart"></i> Shipping & Returns</a>
+				<a href="#">Feedback </a>
 			</div>
 			<div class="col-md-3">
-				<a href="#"><i class="icon icon-cog"></i> Gift cards</a>
+				<a href="#"><i class="icon icon-info"></i> FAQ</a>
 			</div>
 			<div class="col-md-3">
-				<a href="#"><i class="icon icon-map"></i> Store locator</a>
+				<a href="#">Help Center </a>
 			</div>
 		</div>
 	</div>
@@ -104,7 +104,7 @@
 	<div class="navigation navigation-top clearfix">
 		<ul>
 			<!--add active class for current page-->
-			<li class="left-side"><a href="<?php bloginfo('url'); ?>/" class="logo-icon" ><img src=<?php echo get_theme_file_uri( 'img/ona.JPG' );  ?>  alt="Alternate Text" width="80px" /></a></li>
+			<li class="left-side" style="background-color: #000;" ><a href="<?php bloginfo('url'); ?>/" class="logo-icon" ><img src=<?php echo get_theme_file_uri( 'img/ona.JPG' );  ?>  id="lglg" alt="Alternate Text" /></a></li>
 			<li class="left-side"><a href="<?php bloginfo('url'); ?>/product-grid/">Men </a></li>
 			<!--
 				
@@ -117,8 +117,8 @@
 			<li class="left-side"><a href="<?php bloginfo('url'); ?>/product-grid/">ACCESSORIES</a></li>
 			<li class="left-side"><a href="<?php bloginfo('url'); ?>/product-grid/">SPORTWEAR</a></li>
 			<li><a href="javascript:void(0);" class="open-login"><i class="icon icon-user"></i></a></li>
-			<li><a href="javascript:void(0);" class="open-search"><i class="icon icon-magnifier"></i></a></li>
-			<li><a href="javascript:void(0);" class="open-cart"><i class="icon icon-cart"></i> <span>4</span></a></li>
+			<li class="r-side"><a href="javascript:void(0);" class="open-search"><i class="icon icon-magnifier"></i></a></li>
+			<li class="r-side"><a href="javascript:void(0);" class="open-cart" ><i class="icon icon-cart" ></i> <span>4</span></a></li>
 		</ul>
 	</div>
 
@@ -134,23 +134,23 @@
 			<div class="close-menu-wrapper">
 				<span class="close-menu"><i class="icon icon-cross"></i></span>
 			</div>
-			<ul>
+			<ul style="margin-left: -100px;">
 				<li>
-					<a href="<?php bloginfo('url'); ?>/">Home <span class="open-dropdown"><!--<i class="fa fa-angle-down"></i></span>--></a>
+					<a href="<?php bloginfo('url'); ?>/">Home <!--<i class="fa fa-angle-down"></i></span>--></a>
 					
 				</li>
 				<li>
 					<a href="<?php bloginfo('url'); ?>/about-us/">About us <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
 					
 				</li>
-				<li>
+				<!--<li>
 					<a href="#">Shop <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
 					<div class="navbar-dropdown navbar-dropdown-single">
 						<div class="navbar-box">
 							<div class="box-full">
 								<div class="box clearfix">
 									<ul>
-										<!--<li class="label">Product page</li>-->
+									
 										<li><a href="<?php bloginfo('url'); ?>/category/">Products categories</a></li>
 										<li><a href="<?php bloginfo('url'); ?>/product-grid/">Products grid</a></li>
 										<li><a href="<?php bloginfo('url'); ?>/product-list/">Products list</a></li>
@@ -160,13 +160,10 @@
 							</div>
 						</div>
 					</div>
-				</li>
+				</li>-->
+				
 				<li>
-					<a href="<?php bloginfo('url'); ?>/blog-grid/">Blog <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
-					
-				</li>
-				<li>
-					<a href="#">CATEGORY <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+					<a href="#">SHOP <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
 					<div class="navbar-dropdown navbar-dropdown-single">
 						<div class="navbar-box">
 							<div class="box-full">
@@ -182,6 +179,10 @@
 							</div>
 						</div>
 					</div>
+				</li>
+				<li>
+					<a href="<?php bloginfo('url'); ?>/blog-grid/">Blog <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
+					
 				</li>
 				<li>
 					<a href="<?php bloginfo('url'); ?>/contact-us/">Contact us </a>
