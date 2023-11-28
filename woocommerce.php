@@ -16,16 +16,19 @@ get_header();
 ?>
  	
 	
-	 <?php get_template_part('sidebar-left'); ?>	
 	
 
 
 	
 	 <div class="container">
-<?php woocommerce_content(); ?> 
-  
+
+		<div class="row product-flex">
+
+			<?php woocommerce_content(); ?> 
+	
+		</div>
  	
-</div>
+	</div>
 
 
 

@@ -27,7 +27,7 @@ global $product;
 $columns           = apply_filters( 'woocommerce_product_thumbnails_columns', 4 );
 $post_thumbnail_id = $product->get_image_id();
 $wrapper_classes   = apply_filters(
-	'woocommerce_single_product_image_gallery_classes',
+	'col-md-8 col-sm-12 product-flex-gallery',
 	array(
 		'woocommerce-product-gallery',
 		'woocommerce-product-gallery--' . ( $post_thumbnail_id ? 'with-images' : 'without-images' ),
@@ -36,7 +36,7 @@ $wrapper_classes   = apply_filters(
 	)
 );
 ?>
-<div class="<?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
+<div class="owl-product-gallery open-popup-gallery owl-carousel owl-theme" <?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>"  style="opacity: 1; display: block;">
 	<div class="woocommerce-product-gallery__wrapper">
 		<?php
 		if ( $post_thumbnail_id ) {

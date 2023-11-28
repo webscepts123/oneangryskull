@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 ?>
-<div class="woocommerce-variation-add-to-cart variations_button">
+<div class="product-colors clearfix">
 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
 	<?php
