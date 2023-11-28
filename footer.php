@@ -39,7 +39,6 @@
                             <li><a href="<?php bloginfo('url'); ?>/women/">Woman</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/accessories/">Accessories</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/sportwear/">Sportwear</a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
                         </ul>
                     </div>
                     <!--<div class="col-sm-4 col-md-2">
@@ -68,8 +67,7 @@
                         <h5>Customer service</h5>
                         <ul>
                             <!--<li><a href="#">Product Recalls</a></li>-->
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Feedback</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
                             <!--<li><a href="#">Store Pickup</a></li>-->
                             <li><a href="#">Contact us</a></li>
                         </ul>
