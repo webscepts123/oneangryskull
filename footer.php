@@ -40,6 +40,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/accessories/">Accessories</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/sportwear/">Sportwear</a></li>
 
+
                             <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
 
                         </ul>
@@ -69,6 +70,7 @@
                         <ul>
                             <!--<li><a href="#">Product Recalls</a></li>-->
 
+
                             <li><a href="<?php bloginfo('url'); ?>/index.php/faq/">FAQ</a></li>
                             <!--<li><a href="#">Store Pickup</a></li>-->
                             <li><a href="<?php bloginfo('url'); ?>/index.php/contact-us/">Contact us</a></li>
@@ -85,6 +87,20 @@
 >>>>>>> 613b0cf (newchangesfaq)
 
                             <li><a href="#">Feedback</a></li>
+
+
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
+
+                            <li><a href="#">Feedback</a></li>
+
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
+
+
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
+
+                            <li><a href="#">Feedback</a></li>
+
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
 
                             <!--<li><a href="#">Store Pickup</a></li>-->
                             <li><a href="<?php bloginfo('url'); ?>/contact-us/">Contact us</a></li>
