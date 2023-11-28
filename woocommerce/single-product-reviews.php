@@ -78,7 +78,8 @@ if ( ! comments_open() ) {
 					'title_reply_before'  => '<span id="reply-title" class="comment-reply-title">',
 					'title_reply_after'   => '</span>',
 					'comment_notes_after' => '',
-					'label_submit'        => esc_html__( 'Submit', 'woocommerce' ),
+					'label_submit'        => esc_html__( 'Add Comment', 'woocommerce' ),
+					
 					'logged_in_as'        => '',
 					'comment_field'       => '',
 				);
