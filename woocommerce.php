@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The template for displaying all pages
  *
@@ -23,10 +23,7 @@ get_header();
 	
 	 <div class="container">
 <?php woocommerce_content(); ?> 
-</div>
-
-</div>
-	</section>    
+  
  	
 </div>
 
@@ -36,4 +33,4 @@ get_header();
 <?php
 
 get_footer();
-?>
+?> 
