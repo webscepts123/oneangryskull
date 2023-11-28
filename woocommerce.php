@@ -14,15 +14,26 @@
 
 get_header();
 ?>
+ 	
 	
-<div class="container"> 
-     
- 	<?php woocommerce_content(); ?>
+	 <?php get_template_part('sidebar-left'); ?>	
+	
+
+
+	
+	 <div class="container">
+<?php woocommerce_content(); ?> 
+</div>
 
 </div>
-	
+	</section>    
+ 	
+</div>
 
+
+
+	
 <?php
-get_sidebar();
+
 get_footer();
 ?>

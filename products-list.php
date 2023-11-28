@@ -5,7 +5,8 @@
  */
 get_header();
 ?>
-
+<?php $presentation_options = get_option( 'standard_theme_presentation_options' ); ?>
+<?php global $post, $woocommerce; ?>
 
   <!-- ======================== Main header ======================== -->
 
@@ -244,6 +245,7 @@ get_header();
                     </div>
 
                     <div class="row row-clean">
+                  
 
                         <!--product-item-->
                         <div class="col-md-12">
@@ -265,6 +267,7 @@ get_header();
                                             <img src=<?php echo get_theme_file_uri( 'assets/images/product-7.png' );  ?> alt="" width="360" />
                                         </a>
                                     </div>
+                                   
                                     <div class="text">
                                         <h2 class="title h4"><a href="product.html">Coffee machine</a></h2>
                                         <sub>$ 1499,-</sub>
