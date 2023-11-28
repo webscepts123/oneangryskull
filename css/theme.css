@@ -846,7 +846,7 @@ nav .logo {
   height: 55px;
 }
 #heddt{
-    color: #fff;
+    color: #000;
     font-size:26px
 }
 nav .logo img {
@@ -857,6 +857,7 @@ nav .logo img {
 }
 #heddt{
     display: flex;
+    font-weight: bold;
         }
 
 @media (min-width: 992px) {
@@ -925,12 +926,13 @@ nav .navigation-pre a {
     color: #fff;
     padding: 10px;
     display: block;
-    background-color: #333333;
+   /* background-color: #333333;*/
+   background-color:#000;
 }
 
 nav .navigation-pre a:hover {
-    background-color: #e0e0e0;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -947,16 +949,19 @@ nav .navigation-top {
 nav .navigation-top > ul {
     text-align: right;
     height: 75px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #000;
+   /* background-color: #000;*/
+   background-color: #fff;
+   color: #000;
 }
 
 nav .navigation-top > ul .left-side {
     float: left;
+    
 }
 
 nav .navigation-top > ul .left-side.active a {
@@ -965,9 +970,9 @@ nav .navigation-top > ul .left-side.active a {
 
 nav .navigation-top > ul .left-side > a {
     border-left: 0;
-    border-right: 1px solid #000;
+    border-right: 1px solid #fff;
     font-size: 12px;
-    color: #fff;
+    color: #000;
 }
 
 nav .navigation-top > ul .left-side .logo-icon {
@@ -975,12 +980,16 @@ nav .navigation-top > ul .left-side .logo-icon {
 }
 
 nav .navigation-top > ul .left-side .logo-icon img {
-    vertical-align: baseline;
-    padding-top: 3px;
-    width: 90px;
-    margin-top: 5px;
+    /*vertical-align: baseline;*/
+   /* padding-top: 3px;*/
+    width: 140px;
+    margin-top: -45px;
+    
 }
-
+#lglg{
+    
+    
+}
 nav .navigation-top > ul > li > a {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
@@ -994,7 +1003,7 @@ nav .navigation-top > ul > li > a {
 nav .navigation-top .open-login {
 
     margin-left: 10px;
-    color: #fff;
+    color: #000;
 }
 
 nav .navigation-main .open-cart,
@@ -1519,6 +1528,9 @@ nav .navigation-main .navbar-dropdown .navbar-box ul > li:last-child > a {
         display: inline-block;
         color: white;
     }
+}
+.r-side i{
+    color: #000;
 }
 
 nav .open-login,
