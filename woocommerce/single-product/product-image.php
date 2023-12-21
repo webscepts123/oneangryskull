@@ -28,6 +28,7 @@ $columns           = apply_filters( 'woocommerce_product_thumbnails_columns', 4 
 $post_thumbnail_id = $product->get_image_id();
 $wrapper_classes   = apply_filters(
 	'col-md-8 col-sm-12 product-flex-gallery',
+	'col-md-8 col-sm-12 product-flex-gallery',
 	array(
 		'woocommerce-product-gallery',
 		'woocommerce-product-gallery--' . ( $post_thumbnail_id ? 'with-images' : 'without-images' ),
@@ -36,25 +37,8 @@ $wrapper_classes   = apply_filters(
 	)
 );
 ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <div class="col-md-8 col-sm-12 product-flex-gallery" <?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>"  style="opacity: 1; display: block;">
 	<div class="owl-product-gallery open-popup-gallery">
-=======
-<div class="owl-product-gallery open-popup-gallery owl-carousel owl-theme" <?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>"  style="opacity: 1; display: block;">
-	<div class="woocommerce-product-gallery__wrapper">
->>>>>>> 0dbc6ed (newchangeupdate)
-=======
-=======
->>>>>>> 7d73e6f (newchangeupdate)
-<div class="owl-product-gallery open-popup-gallery owl-carousel owl-theme" <?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>"  style="opacity: 1; display: block;">
-	<div class="woocommerce-product-gallery__wrapper">
-=======
-<div class="col-md-8 col-sm-12 product-flex-gallery" <?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>"  style="opacity: 1; display: block;">
-	<div class="owl-product-gallery open-popup-gallery">
->>>>>>> f262dc8 (new edit)
->>>>>>> 483c35d (new edit)
 		<?php
 		if ( $post_thumbnail_id ) {
 			$html = wc_get_gallery_image_html( $post_thumbnail_id, true );
