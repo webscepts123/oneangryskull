@@ -174,7 +174,7 @@
 					
 				</li>
 				<li>
-					<a href="<?php bloginfo('url'); ?>/about-us/">About us <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
+					<a href="<?php bloginfo('url'); ?>/index.php/about-us/">About us <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
 					
 				</li>
 				<!--<li>
@@ -215,11 +215,11 @@
 					</div>
 				</li>
 				<li>
-					<a href="<?php bloginfo('url'); ?>/blog-grid/">Blog <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
+					<a href="<?php bloginfo('url'); ?>/index.php/blog-grid/">Blog <!--<span class="open-dropdown"><i class="fa fa-angle-down"></i></span>--></a>
 					
 				</li>
 				<li>
-					<a href="<?php bloginfo('url'); ?>/contact-us/">Contact us </a>
+					<a href="<?php bloginfo('url'); ?>/index.php/contact-us/">Contact us </a>
 					
 				</li>
 
