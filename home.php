@@ -705,7 +705,7 @@ get_header();
         <article>
             <div>
                 <div class="image">
-                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-3.jpg' );  ?> alt="" />
+                    <img src=<?php echo get_theme_file_uri( 'assets/images/n_m1.webp' );  ?> alt="" />
                 </div>
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
@@ -736,7 +736,7 @@ get_header();
         <article>
             <div>
                 <div class="image">
-                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-4.jpg' );  ?> alt="" />
+                    <img src=<?php echo get_theme_file_uri( 'assets/images/n_w1.webp' );  ?> alt="" />
                 </div>
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
@@ -767,7 +767,7 @@ get_header();
         <article>
             <div>
                 <div class="image">
-                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-5.jpg' );  ?> alt="" />
+                    <img src=<?php echo get_theme_file_uri( 'assets/images/n_a1.webp' );  ?> alt="" />
                 </div>
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
@@ -1354,7 +1354,7 @@ get_header();
                 artisans and bring their unique handcrafted objects to connoisseurs everywhere.
             </p>
             <p>
-                <a href="about.html" class="btn btn-clean">Read full story</a>
+                <a href="<?php bloginfo('url'); ?>/index.php/about-us/" class="btn btn-clean">Read full story</a>
             </p>
         </div>
     </div>
