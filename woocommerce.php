@@ -19,25 +19,22 @@ get_header();
 	
 
 
-	
+
+	<div class="container">
+
+
+
 	 <div class="container">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0dbc6ed (newchangeupdate)
+
 
 		<div class="row product-flex">
 
 			<?php woocommerce_content(); ?> 
 	
 		</div>
-<<<<<<< HEAD
-=======
-<?php woocommerce_content(); ?> 
+
   
->>>>>>> 0f43cc4 (newchangeupdate)
-=======
->>>>>>> 0dbc6ed (newchangeupdate)
+
  	
 	</div>
 
