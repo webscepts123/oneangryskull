@@ -39,7 +39,6 @@
                             <li><a href="<?php bloginfo('url'); ?>/women/">Woman</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/accessories/">Accessories</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/sportwear/">Sportwear</a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
                         </ul>
                     </div>
                     <!--<div class="col-sm-4 col-md-2">
@@ -58,6 +57,7 @@
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/shipping/">Shipping</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/terms-and-conditions/">Terms and Conditions</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/terms-and-conditions/">Terms and Conditions</a></li>
                             <!--<li><a href="#">Exchanges</a></li>
                             <li><a href="#">Order history</a></li>-->
                         </ul>
@@ -66,8 +66,9 @@
                         <h5>Customer service</h5>
                         <ul>
                             <!--<li><a href="#">Product Recalls</a></li>-->
-                            <li><a href="#">Feedback</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
                             <!--<li><a href="#">Store Pickup</a></li>-->
+                            <li><a href="<?php bloginfo('url'); ?>/contact-us/">Contact us</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/contact-us/">Contact us</a></li>
                         </ul>
                     </div>
@@ -87,6 +88,7 @@
             <div class="footer-social">
                 <div class="row">
                     <div class="col-sm-6">
+                        <a href="<?php bloginfo('url'); ?>/sitemap/">Sitemap</a> &nbsp; | &nbsp; <a href="<?php bloginfo('url'); ?>/privacy-policy/">Privacy policy</a>
                         <a href="<?php bloginfo('url'); ?>/sitemap/">Sitemap</a> &nbsp; | &nbsp; <a href="<?php bloginfo('url'); ?>/privacy-policy/">Privacy policy</a>
                     </div>
                     <div class="col-sm-6 links">
