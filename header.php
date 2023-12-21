@@ -85,6 +85,18 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<style>
+		#fb_head:hover{
+			background-color: #610a0a !important;
+		}
+		#fq_head:hover{
+			background-color: #610a0a !important;
+		}
+		#hp_head:hover{
+			background-color: #610a0a !important;
+		}
+		
+	</style>
 	<style>	#fb_head,#fq_head,#hp_head i{
 			color: #fff;
 		}
@@ -151,17 +163,17 @@
 
 	<div class="navigation navigation-pre clearfix" style="z-index: -1;" id="top_fd">
 		<div class="row" >
-		<div class="col-md-3" >
+			<div class="col-md-3" >
 				<a href="#" > </a>
 			</div>
 			<div class="col-md-3">
-				<a href="#" id="fb_head" ><i class="fa-solid fa-comment" ></i> Feedback </a>
+				<a href="#" id="fb_head"><i class="fa-solid fa-comment" style="color: #f9fafa;"></i> Feedback </a>
 			</div>
 			<div class="col-md-3">
-				<a href="#" id="fq_head"><i class="fa-solid fa-circle-info" ></i> FAQ</a>
+				<a href="#" id="fq_head"><i class="fa-solid fa-circle-info" style="color: #ebecf0;"></i> FAQ</a>
 			</div>
 			<div class="col-md-3">
-				<a href="#" id="hp_head"><i class="fa-solid fa-circle-question" id="qqqsst"></i> Help Center </a>
+				<a href="#" id="hp_head"><i class="fa-solid fa-question" style="color: #f6f7f8;"></i> Help Center </a>
 			</div>
 		</div>
 	</div>
