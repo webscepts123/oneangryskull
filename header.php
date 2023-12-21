@@ -52,6 +52,19 @@
    
 	
 	<!--
+   
+	
+	
+	
+	<link rel="stylesheet"  type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/theme.css" />
+	<!--
+	<link rel="stylesheet"  type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css.css" />
+-->
+ <!--Font Awesome CDN CDN-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+	
+	<!--
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 -->
 	<!-- Latest compiled and minified CSS -->
@@ -71,25 +84,16 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<style>	#fb_head,#fq_head,#hp_head i{
-			color: #fff;
-		}
-		#qqqsst:hover{
-			color: #fff;
-		}
+	<style>
 		#fb_head:hover{
-			background-color: #f6f7f8 !important;
-			color: #000;
+			background-color: #610a0a !important;
 		}
 		#fq_head:hover{
-			background-color: #f6f7f8 !important;
-			color: #000;
+			background-color: #610a0a !important;
 		}
 		#hp_head:hover{
-			background-color: #f6f7f8 !important;
-			color: #000;
+			background-color: #610a0a !important;
 		}
-
 		
 	</style>
 	<?php wp_head(); ?>
@@ -115,17 +119,17 @@
 
 	<div class="navigation navigation-pre clearfix" style="z-index: -1;" id="top_fd">
 		<div class="row" >
-		<div class="col-md-3" >
+			<div class="col-md-3" >
 				<a href="#" > </a>
 			</div>
 			<div class="col-md-3">
-				<a href="#" id="fb_head" ><i class="fa-solid fa-comment" ></i> Feedback </a>
+				<a href="#" id="fb_head"><i class="fa-solid fa-comment" style="color: #f9fafa;"></i> Feedback </a>
 			</div>
 			<div class="col-md-3">
-				<a href="#" id="fq_head"><i class="fa-solid fa-circle-info" ></i> FAQ</a>
+				<a href="#" id="fq_head"><i class="fa-solid fa-circle-info" style="color: #ebecf0;"></i> FAQ</a>
 			</div>
 			<div class="col-md-3">
-				<a href="#" id="hp_head"><i class="fa-solid fa-circle-question" id="qqqsst"></i> Help Center </a>
+				<a href="#" id="hp_head"><i class="fa-solid fa-question" style="color: #f6f7f8;"></i> Help Center </a>
 			</div>
 		</div>
 	</div>
@@ -134,7 +138,12 @@
 
 	<div class="navigation navigation-top clearfix">
 		<ul >
+		<ul >
 			<!--add active class for current page-->
+			<li class="left-side" style="background-color: #000;" >
+			<a href="<?php bloginfo('url'); ?>/" class="logo-icon" >
+			<img src=<?php echo get_theme_file_uri( 'img/ona.JPG' );  ?>  id="lglg" alt="Alternate Text" /></a></li>
+			<li class="left-side" ><a href="<?php bloginfo('url'); ?>/product-grid/">Men </a></li>
 			<li class="left-side" style="background-color: #000;" >
 			<a href="<?php bloginfo('url'); ?>/" class="logo-icon" >
 			<img src=<?php echo get_theme_file_uri( 'img/ona.JPG' );  ?>  id="lglg" alt="Alternate Text" /></a></li>
@@ -167,6 +176,8 @@
 			<div class="close-menu-wrapper">
 				<span class="close-menu"><i class="icon icon-cross"></i></span>
 			</div>
+			<!--<ul style="margin-left: -100px;">-->
+				<ul style="margin-left: 40px;">
 			<!--<ul style="margin-left: -100px;">-->
 				<ul style="margin-left: 40px;">
 				<li>
