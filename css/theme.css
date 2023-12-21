@@ -907,7 +907,7 @@ nav .navigation > ul > li.active a, nav .navigation > ul > li.active a:hover {
 
 nav .navigation-pre {
     display: none;
-   /* background-color: #2e73bb;*/
+    /*background-color: #2e73bb;*/
    background-color: #000;
     color: white;
     text-align: center;
@@ -928,13 +928,23 @@ nav .navigation-pre a {
     display: block;
    /* background-color: #333333;*/
    background-color:#000;
+   padding-left: -100px;
 }
 
 nav .navigation-pre a:hover {
-    background-color: #000;
+    background-color: #c3c3c3;
     color: #fff;
 }
 
+div .navigation-pre a:hover {
+    background-color: #610a0a !important;
+    color: #fff;
+}
+/*
+.clearfix #hp_head:hover{
+    background-color: #2e73bb !important;
+}
+*/
 @media (min-width: 992px) {
     nav .navigation-pre {
         display: block;
@@ -955,7 +965,7 @@ nav .navigation-top > ul {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
    /* background-color: #000;*/
-   background-color: #fff;
+   background-color: #FAFAFA;
    color: #000;
 }
 
@@ -993,7 +1003,7 @@ nav .navigation-top > ul .left-side .logo-icon img {
 nav .navigation-top > ul > li > a {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    border-left: 1px solid #000;
+    border-left: 1px solid #c3c3c3;
     padding: 0 20px;
     line-height: 75px;
     font-size: 22px;
@@ -1105,7 +1115,10 @@ nav .navigation-main .navbar-dropdown .navbar-box ul > li > a span.label {
 nav .navigation-main .navbar-dropdown .navbar-box ul > li:last-child > a {
     border-bottom: 0;
 }
-
+/*
+#hp_head:hover{
+    background-color: #a10c0c !important;
+}*/
 @media (min-width: 992px) {
     nav .navigation .floating-menu > ul > li,
     nav .navigation .floating-menu > ul > li > a {
@@ -1787,7 +1800,7 @@ nav .cart-wrapper.open {
 }
 
 .categories figure figcaption {
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
@@ -6166,7 +6179,7 @@ nav .cart-wrapper.open {
 .owl-icons-wrapper .owl-icons figcaption {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 10px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;

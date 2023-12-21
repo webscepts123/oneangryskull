@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The template for displaying all pages
  *
@@ -16,19 +16,19 @@ get_header();
 ?>
  	
 	
-	 <?php get_template_part('sidebar-left'); ?>	
 	
 
 
 	
 	 <div class="container">
-<?php woocommerce_content(); ?> 
-</div>
 
-</div>
-	</section>    
+		<div class="row product-flex">
+
+			<?php woocommerce_content(); ?> 
+	
+		</div>
  	
-</div>
+	</div>
 
 
 
@@ -36,4 +36,4 @@ get_header();
 <?php
 
 get_footer();
-?>
+?> 
