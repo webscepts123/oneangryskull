@@ -923,7 +923,6 @@ get_header();
                     </div> <!--/popup-content-->
                     <!-- === product-popup-footer === -->
 
-                    
                     <div class="popup-table">
                         <div class="popup-cell">
                             <div class="price">

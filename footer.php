@@ -39,6 +39,13 @@
                             <li><a href="<?php bloginfo('url'); ?>/women/">Woman</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/accessories/">Accessories</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/sportwear/">Sportwear</a></li>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
+>>>>>>> 979cc59 (newchangepage)
+=======
+>>>>>>> 613b0cf (newchangesfaq)
                         </ul>
                     </div>
                     <!--<div class="col-sm-4 col-md-2">
@@ -65,7 +72,15 @@
                         <h5>Customer service</h5>
                         <ul>
                             <!--<li><a href="#">Product Recalls</a></li>-->
+<<<<<<< HEAD
+<<<<<<< HEAD
                             <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
+=======
+                            <li><a href="#">Feedback</a></li>
+>>>>>>> 979cc59 (newchangepage)
+=======
+                            <li><a href="<?php bloginfo('url'); ?>/faq/">FAQ</a></li>
+>>>>>>> 613b0cf (newchangesfaq)
                             <!--<li><a href="#">Store Pickup</a></li>-->
                             <li><a href="<?php bloginfo('url'); ?>/contact-us/">Contact us</a></li>
                         </ul>

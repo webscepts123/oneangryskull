@@ -50,14 +50,15 @@ get_header();
             <article>
                 <a href="products-grid.html">
                     <div class="image">
-                        <img src=<?php echo get_theme_file_uri( 'assets/images/project-1.jpg' );  ?> alt="" />
+                        <img src=<?php echo get_theme_file_uri( 'assets/images/2.png' );  ?> alt="" />
                     </div>
                     <div class="entry entry-block">
+                        
+                        <div class="description">
                         <div class="date">2023 Collection</div>
                         <div class="title">
                             <h2 class="h3">MEN</h2>
                         </div>
-                        <div class="description">
                             <p>
                                 Top picks four your desire
                             </p>
@@ -76,14 +77,15 @@ get_header();
             <article>
                 <a href="products-grid.html">
                     <div class="image">
-                        <img src=<?php echo get_theme_file_uri( 'assets/images/project-2.jpg' );  ?> alt="" />
+                        <img src=<?php echo get_theme_file_uri( 'assets/images/1.png' );  ?> alt="" />
                     </div>
                     <div class="entry entry-block">
+                       
+                        <div class="description">
                         <div class="date">New arrivals</div>
                         <div class="title">
                             <h2 class="h3">WOMAN</h2>
                         </div>
-                        <div class="description">
                             <p>
                                 Explore popular devices
                             </p>
@@ -102,14 +104,15 @@ get_header();
             <article>
                 <a href="products-grid.html">
                     <div class="image">
-                        <img src=<?php echo get_theme_file_uri( 'assets/images/project-3.jpg' );  ?> alt="" />
+                        <img src=<?php echo get_theme_file_uri( 'assets/images/3.png' );  ?> alt="" />
                     </div>
                     <div class="entry entry-block">
+                       
+                        <div class="description">
                         <div class="date">Up to 50% off</div>
                         <div class="title">
                             <h2 class="h3">ACCESORIES</h2>
                         </div>
-                        <div class="description">
                             <p>
                                 Available for quick shipping
                             </p>
@@ -128,14 +131,15 @@ get_header();
             <article>
                 <a href="products-grid.html">
                     <div class="image">
-                        <img src=<?php echo get_theme_file_uri( 'assets/images/project-4.jpg' );  ?> alt="" />
+                        <img src=<?php echo get_theme_file_uri( 'assets/images/4.png' );  ?> alt="" />
                     </div>
                     <div class="entry entry-block">
+                       
+                        <div class="description">
                         <div class="date">Save big on</div>
                         <div class="title">
                             <h2 class="h3">SPORTWEAR</h2>
                         </div>
-                        <div class="description">
                             <p>
                                 Fun to explore
                             </p>
@@ -153,7 +157,7 @@ get_header();
     <!-- === button more === -->
 
     <div class="wrapper-more">
-        <a href="ideas.html" class="btn btn-lg">View all categories</a>
+        <a href="ideas.html" class="btn btn-lg">View All Collection</a>
     </div>
 
 </div> <!--/container-->
@@ -179,10 +183,10 @@ get_header();
                 <div class="image">
 
                     <!--Desktop image-->
-                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-1.jpg' );  ?> alt="" class="hidden-xs" />
+                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-1.png' );  ?> alt="" class="hidden-xs" />
 
                     <!--Mobile image-->
-                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-1-mobile.jpg' );  ?> alt="" class="visible-xs" />
+                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-1.png' );  ?> alt="" class="visible-xs" />
 
                 </div>
                 <div class="entry entry-block">
@@ -222,10 +226,10 @@ get_header();
                 <div class="image">
 
                     <!--Desktop image-->
-                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-2.jpg' );  ?> alt="" class="hidden-xs" />
+                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-2.png' );  ?> alt="" class="hidden-xs" />
 
                     <!--Mobile image-->
-                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-2-mobile.jpg' );  ?> alt="" class="visible-xs" />
+                    <img src=<?php echo get_theme_file_uri( 'assets/images/shop-2.png' );  ?> alt="" class="visible-xs" />
 
                 </div>
                 <div class="entry entry-block">
@@ -713,9 +717,9 @@ get_header();
                             <li>
                                 <a href="#">New arrivals</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#">Doscount sale collection</a>
-                            </li>
+                            </li>-->
                             <li class="more">
                                 <a href="#">More</a>
                             </li>
@@ -744,9 +748,9 @@ get_header();
                             <li>
                                 <a href="#">New arrivals</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#">Doscount sale collection</a>
-                            </li>
+                            </li>-->
                             <li class="more">
                                 <a href="#">More</a>
                             </li>
@@ -775,9 +779,9 @@ get_header();
                             <li>
                                 <a href="#">New arrivals</a>
                             </li>
-                            <li>
+                           <!-- <li>
                                 <a href="#">Doscount sale collection</a>
-                            </li>
+                            </li>-->
                             <li class="more">
                                 <a href="#">More</a>
                             </li>
@@ -1039,16 +1043,16 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Luxary Men's Cloths</h2>
+                        <h2 class="h3">Luxary SportsWare</h2>
                     </div>
                     <div class="description">
                         <ul>
                             <li>
                                 <a href="#">New arrivals</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#">Doscount sale collection</a>
-                            </li>
+                            </li>-->
                             <li class="more">
                                 <a href="#">More</a>
                             </li>
@@ -1070,16 +1074,16 @@ get_header();
                 <div class="entry entry-block">
                     <div class="date">Shop for</div>
                     <div class="title">
-                        <h2 class="h3">Luxary Women's Cloths</h2>
+                        <h2 class="h3">Luxary Accessories</h2>
                     </div>
                     <div class="description">
                         <ul class="col">
                             <li>
                                 <a href="#">New arrivals</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#">Doscount sale collection</a>
-                            </li>
+                            </li>-->
                             <li class="more">
                                 <a href="#">More</a>
                             </li>
@@ -1358,6 +1362,66 @@ get_header();
 </section>
 
 <!-- ========================  Instagram ======================== -->
+  <!-- ========================  Instagram ======================== -->
+
+  <section class="instagram">
+
+<!-- === instagram header === -->
+
+<header>
+    <h2 class="h3 title">
+        Follow us<br>
+        <br>
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #6f7071;"></i><br><br>
+        Instagram
+    </h2>
+    <div class="text">
+        <p>@oneangryskull</p>
+    </div>
+</header>
+
+<!-- === instagram gallery === -->
+
+<div class="gallery clearfix">
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+    <a class="item" href="#">
+        <img src=<?php echo get_theme_file_uri( 'assets/images/square-2.jpg' );  ?> alt="Alternate Text" />
+    </a>
+</div> <!--/gallery-->
+
+</section>
 
 
 
